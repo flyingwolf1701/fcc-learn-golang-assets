@@ -6,11 +6,11 @@ import (
 )
 
 func sendMessage(msg message) {
-	// ?
+	fmt.PrintLn(msg.getMessage())
 }
 
 type message interface {
-	// ?
+	getMessage() string
 }
 
 // don't edit below this line
